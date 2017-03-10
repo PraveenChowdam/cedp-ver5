@@ -1,0 +1,8 @@
+applications:
+- path: target/cedp-ver5.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: cedp-ver5
+  host: cedp-ver5
+  disk_quota: 1024M
